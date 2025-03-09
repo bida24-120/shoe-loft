@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shoe Loft</title>
+    <style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shoe Loft</title>
+    <style>
+        .image-container {
+            display: flex; /* Align images in a row */
+            justify-content: space-between; /* Distribute images evenly */
+            align-items: center;
+            gap: 10px; /* Space between images */
+            text-align: center; /* Center captions */
+            flex-wrap: wrap; /* Ensure images wrap on smaller screens */
+        }
+        .image-box {
+            flex: 1; /* Make each image take equal space */
+            max-width: 33.33vw; /* Ensure images fit on the screen */
+            text-align: center;
+        }
+        .image-box img {
+            width: 100%; /* Ensure images fill their container */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .caption {
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        @media (max-width: 768px) {
+            .image-container {
+                flex-direction: column; /* Stack images on small screens */
+            }
+            .image-box {
+                max-width: 100%; /* Allow images to take full width on small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 style="font-size:50px; text-align: center;">Welcome to The Shoe Loft!</h1>
+    <h2 style="font-size:30px; text-align: center;">Elevate every step with style!</h2>
+</header>
+
+<main>
+    <!-- Category: Kitten Heels -->
+    <h1 style="font-size:50px; text-align:center;">Category: Kitten Heels</h1>
+    <div class="image-container">
+        <div class="image-box">
+            <img src="Heel.01.jpg" alt="Kitten Heels">
+            <p class="caption">Price = $120</p>
+        </div>
+        <div class="image-box">
+            <img src="Heel.02.jpg" alt="Kitten Heels">
+            <p class="caption">Price = $110</p>
+        </div>
+        <div class="image-box">
+            <img src="Heel.03.jpg" alt="Kitten Heels">
+            <p class="caption">Price = $100</p>
+        </div>
+    </div>
+
+    <!-- Category: Platform Sole -->
+    <h1 style="font-size:50px; text-align:center;">Category: Platform Sole</h1>
+    <div class="image-container">
+        <div class="image-box">
+            <img src="Heel.04.jpg" alt="Platform Sole">
+            <p class="caption">Price = $150</p>
+        </div>
+        <div class="image-box">
+            <img src="Heel.05.jpg" alt="Platform Sole">
+            <p class="caption">Price = $105</p>
+        </div>
+        <div class="image-box">
+            <img src="Heel.06.jpg" alt="Platform Sole">
+            <p class="caption">Price = $130</p>
+        </div>
+    </div>
+
+    <!-- Category: New Balance Shoes -->
+    <h1 style="font-size:50px; text-align:center;">Category: New Balance Shoes</h1>
+    <div class="image-container">
+        <div class="image-box">
+            <img src="new.01.jpg" alt="New Balance Shoes">
+            <p class="caption">Price = $170</p>
+        </div>
+        <div class="image-box">
+            <img src="new.02.jpg" alt="New Balance Shoes">
+            <p class="caption">Price = $205</p>
+        </div>
+        <div class="image-box">
+            <img src="new.03.jpg" alt="New Balance Shoes">
+            <p class="caption">Price = $220</p>
+        </div>
+    </div>
+
+    <!-- Category: Sandles -->
+    <h1 style="font-size:50px; text-align:center;">Category: Sandles</h1>
+    <div class="image-container">
+        <div class="image-box">
+            <img src="sandles.01.jpg" alt="sandles">
+            <p class="caption">Price = $170</p>
+        </div>
+        <div class="image-box">
+            <img src="sandles.02.jpg" alt="sandles">
+            <p class="caption">Price = $205</p>
+        </div>
+        <div class="image-box">
+            <img src="sandles.03.jpg" alt="sandles">
+            <p class="caption">Price = $220</p>
+        </div>
+    </div>
+
+    <p>Visit <a href="https://github.com">GitHub</a> to learn more about coding.</p>
+</main>
+
+<footer>
+    <p>&copy; 2025 Reabetswe Dineo Dikgang</p>
+</footer>
+
+</body>
+</html>
