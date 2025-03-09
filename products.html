@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Page - Shoe Loft </title>
+    <title>Product Page - Shoe Loft</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -27,6 +27,7 @@
             color: #333;
             border-bottom: 3px solid #d63384;
             padding-bottom: 10px;
+            text-align: center;
         }
 
         .products {
@@ -38,7 +39,7 @@
 
         .product-card {
             background: white;
-            width: 250px;
+            width: 300px; /* Increased width */
             padding: 15px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -51,8 +52,9 @@
         }
 
         .product-card img {
-            width: 100%;
-            height: 200px;
+            width: 100%; /* Ensures image fills container */
+            height: 250px; /* Adjusted height for consistency */
+            object-fit: cover; /* Prevents stretching */
             border-radius: 10px;
         }
 
@@ -89,51 +91,51 @@
 
     <h1>Shop Our Products</h1>
 
-
-      <!-- Jewelry Section -->
-      <div class="category">
+    <!-- New Balance Section -->
+    <div class="category">
         <h2>New Balance</h2>
         <div class="products">
             <div class="product-card">
-                <img src="new.01.jpg" alt="Gold Bracelet">
-                <div class="product-name">New balance</div>
+                <img src="new.01.jpg" alt="New Balance 1">
+                <div class="product-name">New Balance</div>
                 <div class="price">$149.99</div>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
-        <div class="products">
+
             <div class="product-card">
-                <img src="new.02.jpg" alt="new balance">
-                <div class="product-name">New balance</div>
+                <img src="new.02.jpg" alt="New Balance 2">
+                <div class="product-name">New Balance</div>
                 <div class="price">$200</div>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
 
             <div class="product-card">
-                <img src="new.03.jpg" alt="New balance">
-                <div class="product-name">New balance</div>
+                <img src="new.03.jpg" alt="New Balance 3">
+                <div class="product-name">New Balance</div>
                 <div class="price">$110</div>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
         </div>
     </div>
 
-     <!-- Heels Section -->
-     <div class="category">
-         <h2>Heels</h2>
-         <div class="products">
-             <div class="product-card">
-                <img src="Heel.01.jpg" alt="Red kitten Heels">
-                <div class="product-name">Red Stiletto Heels</div>
-                <div class="price">$59.99</div>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
+    <!-- Heels Section -->
+    <div class="category">
+        <h2>Heels</h2>
         <div class="products">
             <div class="product-card">
-                <img src="Heel.02.jpg" alt="Black Stiletto Heels">
+                <img src="Heel.01.jpg" alt="Red Stiletto Heels">
                 <div class="product-name">Red Stiletto Heels</div>
                 <div class="price">$59.99</div>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
+
+            <div class="product-card">
+                <img src="Heel.02.jpg" alt="Black Stiletto Heels">
+                <div class="product-name">Black Stiletto Heels</div>
+                <div class="price">$59.99</div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
             <div class="product-card">
                 <img src="Heel.03.jpg" alt="Black High Heels">
                 <div class="product-name">Black High Heels</div>
@@ -143,54 +145,54 @@
         </div>
     </div>
 
-    <!-- Bags Section -->
+    <!-- Sandals Section -->
     <div class="category">
-        <h2>Sandles</h2>
+        <h2>Sandals</h2>
         <div class="products">
             <div class="product-card">
-                <img src="sandles.01.jpg" alt="Leather Handbag">
-                <div class="product-name">Sandles</div>
+                <img src="sandles.01.jpg" alt="Sandals 1">
+                <div class="product-name">Elegant Sandals</div>
                 <div class="price">$79.99</div>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
+
             <div class="product-card">
-                <img src="sandles.02.jpg" alt="sandles">
-                <div class="product-name">sandles</div>
+                <img src="sandles.02.jpg" alt="Sandals 2">
+                <div class="product-name">Casual Sandals</div>
                 <div class="price">$49.99</div>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
 
-
             <div class="product-card">
-                <img src="sandles.03.jpg" alt="sandles">
-                <div class="product-name">sandles</div>
+                <img src="sandles.03.jpg" alt="Sandals 3">
+                <div class="product-name">Beach Sandals</div>
                 <div class="price">$49.99</div>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
         </div>
     </div>
 
-    <!-- Body Care Section -->
+    <!-- Platform Sole Section -->
     <div class="category">
         <h2>Platform Sole</h2>
         <div class="products">
             <div class="product-card">
-                <img src="Heel.04.jpg" alt="platforms">
-                <div class="product-name">platforms</div>
+                <img src="Heel.04.jpg" alt="Platform Shoes 1">
+                <div class="product-name">Chic Platforms</div>
                 <div class="price">$79.99</div>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
-           <div class="products">
+
             <div class="product-card">
-                <img src="Heel.05.jpg" alt="platforms">
-                <div class="product-name">platforms</div>
+                <img src="Heel.05.jpg" alt="Platform Shoes 2">
+                <div class="product-name">Fashion Platforms</div>
                 <div class="price">$89.99</div>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
 
             <div class="product-card">
-                <img src="Heel.06.jpg" alt="platforms">
-                <div class="product-name">platforms</div>
+                <img src="Heel.06.jpg" alt="Platform Shoes 3">
+                <div class="product-name">Trendy Platforms</div>
                 <div class="price">$99.99</div>
                 <button class="add-to-cart">Add to Cart</button>
             </div>
