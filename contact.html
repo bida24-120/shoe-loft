@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Shoe Loft </title>
+    <style>
+        /* Basic styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: beige;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 20px;
+            font-size: 18px;
+            font-style: italic;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #d63384;
+        }
+
+        /* Contact Section */
+        .contact-container {
+            margin-top: 120px; /* Space below the fixed navbar */
+            padding: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #d63384;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 80%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .contact-form textarea {
+            height: 120px;
+        }
+
+        .contact-form button {
+            background-color: #d63384;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #b2226f;
+        }
+
+        /* Contact Details */
+        .contact-details {
+            margin-top: 30px;
+        }
+
+        .contact-details p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Social Media */
+        .social-icons {
+            margin-top: 30px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+            color: #d63384;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #b2226f;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="signin.html">Sign In</a>
+        <a href="signup.html">Sign Up</a>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <p>If you have any questions, feel free to reach out to us!</p>
+
+        <!-- Contact Form -->
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Dineo" required>
+            <input type="email" name="email" placeholder="dineodikgang@yahoo.com" required>
+            <input type="text" name="subject" placeholder="Botswana ,Airport Junction" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Contact Details -->
+        <div class="contact-details">
+            <h2>Our Contact Information</h2>
+            <p><strong>Email:</strong> support@dineofemininestore.com</p>
+            <p><strong>Phone:</strong> +123 456 7890</p>
+            <p><strong>Address:</strong> 123 Beauty Lane, Fashion City, 56789</p>
+        </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Shoe Loft . All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
