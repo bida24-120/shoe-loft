@@ -1,4 +1,4 @@
-/* Global Styling */
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: beige;
@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-/* Navigation Bar */
+/* Navbar Styles */
 .navbar {
     display: flex;
     justify-content: center;
@@ -34,8 +34,8 @@ body {
     color: #d63384;
 }
 
-/* Page Containers */
-.container {
+/* Page Content Container */
+.page-container {
     margin-top: 120px;
     padding: 40px;
     max-width: 900px;
@@ -51,12 +51,6 @@ h1 {
     color: #d63384;
 }
 
-/* Text Styling */
-p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
 /* Forms */
 input, textarea {
     width: 80%;
@@ -67,7 +61,6 @@ input, textarea {
     font-size: 16px;
 }
 
-/* Buttons */
 button {
     background-color: #d63384;
     color: white;
@@ -80,18 +73,4 @@ button {
 
 button:hover {
     background-color: #b2226f;
-}
-
-/* Reviews Section */
-.review {
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.review p {
-    font-size: 16px;
-    line-height: 1.6;
 }
