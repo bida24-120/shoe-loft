@@ -3,34 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In - Shoe Loft </title>
+    <title>Sign In - Shoe Loft</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <div class="container">
-        <h2>Sign In</h2>
-        <form action="login_process.php" method="POST">
-            <div class="input-group">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" required placeholder="Enter your email">
-            </div>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="reviews.html">Reviews</a>
+    </div>
 
-            <div class="input-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required placeholder="Enter your password">
-            </div>
-
-            <div class="checkbox-group">
-                <label><input type="checkbox" name="remember"> Remember Me</label>
-                <a href="#" class="forgot-password">Forgot Password?</a>
-            </div>
-
-            <button type="submit" class="btn">Sign In</button>
-
-            <div class="signup-link">
-                Don't have an account? <a href="signup.html">Sign Up</a>
-            </div>
+    <div class="page-container">
+        <h1>Sign In</h1>
+        <form>
+            <input type="email" placeholder="Email Address" required>
+            <input type="password" placeholder="Enter Password" required>
+            <button type="submit">Login</button>
         </form>
     </div>
 
