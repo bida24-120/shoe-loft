@@ -3,98 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Shoe Loft</title>
-    <style>
-        /* Background Image */
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background: url('new.02.jpg') no-repeat center center/cover;
-            color: white;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-
-        /* Navigation Bar */
-        .navbar {
-            position: absolute;
-            top: 0;
-            width: 100%;
-            background: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
-            display: flex;
-            justify-content: space-around;
-            padding: 15px 0;
-        }
-
-        .navbar a {
-            color: gold;
-            text-decoration: none;
-            padding: 14px 20px;
-            font-size: 18px;
-            transition: 0.3s;
-        }
-
-        .navbar a:hover {
-            background-color: gold;
-            color: black;
-            border-radius: 5px;
-        }
-
-        /* Homepage Content */
-        .homepage-content {
-            background: rgba(0, 0, 0, 0.6); /* Dark overlay for readability */
-            padding: 40px;
-            border-radius: 10px;
-        }
-
-        .homepage-content h1 {
-            font-size: 50px;
-            margin-bottom: 10px;
-        }
-
-        .homepage-content p {
-            font-size: 20px;
-            max-width: 600px;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .navbar {
-                flex-direction: column;
-                text-align: center;
-            }
-            .homepage-content h1 {
-                font-size: 35px;
-            }
-            .homepage-content p {
-                font-size: 18px;
-            }
-        }
-    </style>
+    <title>Shoe Loft</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- Navigation Bar -->
-<nav class="navbar">
-    <a href="home.html">Home</a>
-    <a href="experiment.html">Products</a>
-    <a href="about.html">About Us</a>
-    <a href="contact.html">Contact Us</a>
-    <a href="signin.html">Sign In</a>
-    <a href="signup.html">Sign Up</a>
-    <a href="review.html">Review</a>
-</nav>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="signin.html">Sign In</a>
+        <a href="signup.html">Sign Up</a>
+    </div>
 
-<!-- Homepage Content -->
-<div class="homepage-content">
-    <h1>Welcome to The Shoe Loft</h1>
-    <p>Elevate your style with our exclusive collection of luxury shoes.</p>
-</div>
+    <div class="page-container">
+        <h1>Welcome to Shoe Loft</h1>
+        <p>"We believe that beauty is a blend of self-care and self-expression..."</p>
+    </div>
 
 </body>
 </html>
