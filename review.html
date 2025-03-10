@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews - Shoe Loft</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: beige;
+            text-align: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-style: italic;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #d63384;
+        }
+
+        .reviews-container {
+            margin-top: 120px;
+            padding: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #d63384;
+        }
+
+        .review {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .review p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="reviews.html">Reviews</a>
+    </div>
+
+    <div class="reviews-container">
+        <h1>Customer Reviews</h1>
+        <div class="review"><p>"I love my new heels! So comfortable and stylish!" - Sarah</p></div>
+        <div class="review"><p>"Amazing quality and fast delivery!" - Lisa</p></div>
+    </div>
+
+</body>
+</html>
